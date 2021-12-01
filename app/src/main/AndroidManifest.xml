@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.streamer">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Streamer"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".profile"/>
+        <activity android:name=".VideoStreaming.HomeVideo" />
+        <activity android:name=".Result2" />
+        <activity android:name=".Quiz" />
+        <activity android:name=".Result" />
+        <activity android:name=".playQuiz" />
+        <activity android:name=".Question" />
+        <activity android:name=".Subject_TO_Question" />
+        <activity android:name=".Subject_OR_Question" />
+        <activity android:name=".Sub_Category" />
+        <activity android:name=".Category" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".introductoryContactPage" />
+        <activity
+            android:name=".introductoryPage"
+            android:theme="@style/Theme.intro" />
+        <activity android:name=".aboutUs" />
+        <activity android:name=".VideoStreaming.feedback" />
+        <activity android:name=".VideoStreaming.subjectTopic_redirect" />
+        <activity android:name=".VideoStreaming.homepage" />
+
+
+        <activity android:name=".VideoStreaming.course_available" />
+        <activity android:name=".VideoStreaming.videolist_incoming" />
+        <activity android:name=".VideoStreaming.mainmenu" />
+        <activity android:name=".login"
+            android:theme="@style/Theme.intro" />
+        <activity android:name=".welcomescreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <meta-data
+            android:name="preloaded_fonts1"
+            android:resource="@array/preloaded_fonts1" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

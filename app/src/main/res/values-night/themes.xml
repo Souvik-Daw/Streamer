@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Streamer" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <!-- Force dark mode -->
+        <item name="android:forceDarkAllowed" tools:ignore="NewApi">false</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">#f54e4e</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ShimmerEffectWithRecyclerView" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Force dark mode -->
+        <item name="android:forceDarkAllowed" tools:ignore="NewApi">false</item>
+    </style>
+
+
+
+    <style name="Theme.intro" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="android:statusBarColor" tools:targetApi="l">#f54e4e</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

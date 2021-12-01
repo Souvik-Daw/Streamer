@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/all_topic_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:layout_margin="13dp"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#505050">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Polity"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_courses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Live Courses"
+        android:layout_marginTop="60dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"/>
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="3dp"
+        android:alpha="1"
+        android:layout_marginTop="88dp"
+        android:layout_marginStart="13.5dp"
+        android:background="#1AFF00"/>
+
+</RelativeLayout>

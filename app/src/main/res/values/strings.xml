@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Streamer</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+    <string name="question_one">
+        What is Plus subscription ?
+    </string>
+
+    <string name="answer_one">
+        -> Plus Subscription gives you access to all live courses and quizzes launched every month within the goal you have subscribed for. Plus subscription is available for one month, six year and a year.
+    </string>
+
+    <string name="question_two">
+        Can I enroll in a course if it has already started ?
+    </string>
+
+    <string name="answer_two">
+        -> Yes. You can enroll in any Course before its end date. The class recordings will be available for you on the course page so that you can cover the missed Lessons and quizzes.
+    </string>
+
+
+    <string name="Intro">
+
+    At O2 Academia - We Take Utmost Care to Give Attention to Individual Students Along With Imparting The Right Knowledge.
+        \n\n Take A Quick Ride Of O2 Academia, Not Just Distributing Study Materials, The Institute Offers Demo Sessions to Get A Flair Of What Actually Happens On The Insides…
+
+        \n\n \" Aggressively Fight For You. \"
+
+    \n \" Your Interest Always Comes First. \"
+
+    \n \" Experienced Educators. \"
+
+    \n \" Honesty and Integrity Set Us Apart. \"
+
+    </string>
+
+    <string name="Intro1">
+
+        \n Your Future Starts Here
+
+        \n\n \" Don\'t Waste Your Time. \n Beating In The Bush, you Can Join Either Our Classroom Programme Or Online Courses to Crack Govt. Exams For A Secure Future. \"
+    </string>
+
+
+</resources>
